@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed">
             <div class="container-fluid">
               <button style="border: none;" type="button" class="btn btn-outline-secondary"><img src="./img/logo.svg" alt=""></button>
               <input class="form-control me-2 size" type="search" placeholder="Search" aria-label="Search">
@@ -40,8 +40,28 @@
             </div>
           </nav>
     </header>
-    <main>
-        <nav></nav>
+    <main class="d-flex">
+        <section class="height">
+        <nav>
+            <div class=" row justify-content-between size_1">
+                <div >
+                    <ul class="list">
+                        <li class="text-white" ><i class="fa-solid fa-house"></i> <span>Home</span></li>
+                        <li class="text-white" ><i class="fa-solid fa-chart-line"></i></i></i> <span> Stats</span></li>
+                        <li class="text-white" ><i class="fa-solid fa-signal"></i> <span>Signal</span></li>
+                    </ul>
+                </div>
+                <div class="p_top">
+                    <i class="fa-solid fa-gear text-white pl-copy"></i> <span class="text-white" >Admin</span></i>
+                </div>
+            </div>
+        </nav>
+        </section>
+        <section>
+            <div class="width_90 bg_blue">
+                <h1>Boolean</h1>
+            </div>
+        </section>
     </main>
 </body>
 </html>

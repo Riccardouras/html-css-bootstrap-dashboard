@@ -1,0 +1,40 @@
+.size{
+    width: 80% !important;
+}
+.mlr-20 li{
+    margin: 0 10px;
+}
+.negative_m{
+    margin: -7px auto;
+}
+.fixed{
+    position:fixed ;
+}
+.height{
+    height: 100vh;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: contain;
+    overflow-y: hidden;
+    width: 9%;
+    background-color: black;
+    overflow-x: hidden;
+}
+.size_1{
+    height: 100vh;
+   padding-top: 30px;
+}
+.list{
+    list-style: none;
+}
+.pl-copy{
+    padding-left: 32px;
+}
+.p_top{
+    padding-top: 654px;
+}
+.width_90{
+    width: 90vw;
+}
+.bg_blue{
+    background-color: #1B72E8;
+}
