@@ -38,3 +38,14 @@
 .bg_blue{
     background-color: #1B72E8;
 }
+.tap_me button{
+    background-color: #165BBA;
+    color: white;
+    border: none;
+    border-radius: 70px;
+}
+#pad_button{
+    padding: 2px;
+    height: 28px;
+    margin: auto 14px;
+}
