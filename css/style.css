@@ -9,6 +9,7 @@
 }
 .fixed{
     position:fixed ;
+    width: ;
 }
 .height{
     height: 100vh;
@@ -48,4 +49,8 @@
     padding: 2px;
     height: 28px;
     margin: auto 14px;
+}
+.tap_me button:hover{
+    transition: 0.5ms;
+    opacity: 0.3;
 }
